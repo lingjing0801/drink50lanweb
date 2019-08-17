@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 微軟正黑體;
+}
+#banner{
+    background-color: #ffff00;
+    width:80vw;
+    height:calc(100vw/10);
+    margin:0 auto;
+}
+#logo{
+    width:150px;
+    padding:0 40px;
+   
+}
+#link{
+    float:right;
+    padding:50px 0;
+}
+#link a{
+    color:#0056b8;
+    text-decoration: none;
+    font-weight:bold;
+    padding:10px 50px;
+    font-size: 24px;
+
+}
