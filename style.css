@@ -5,24 +5,28 @@
 }
 #banner{
     background-color: #ffff00;
-    width:80vw;
+    width:70vw;
     height:calc(100vw/10);
     margin:0 auto;
 }
 #logo{
     width:150px;
-    padding:0 40px;
+    padding:0 22px;
    
 }
 #link{
     float:right;
-    padding:50px 0;
+    padding:55px 0;
 }
 #link a{
     color:#0056b8;
     text-decoration: none;
     font-weight:bold;
-    padding:10px 50px;
-    font-size: 24px;
-
+    padding:10px 40px;
+    font-size: 22px;
+}
+#link a:hover{
+    background-color: #0056b8;
+    color:#fff;
+    transition: 0.6s;
 }
