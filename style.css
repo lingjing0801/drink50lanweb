@@ -33,11 +33,18 @@
 /* 輪播banner */
 #img1{
     width:70vw;
-    height:calc(100vw/10);
+    height:39vw;
     margin:0 auto;
 }
 #ghost{
     height:600px;
-    margin:0 auto;
     padding:0 230px;
+}
+#img2{
+    margin:0 auto;
+    width:70vw;
+}
+#menu{
+    height:600px;
+    padding:0 120px;
 }
