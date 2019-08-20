@@ -58,7 +58,7 @@
 }
 #logo1{
     width:100px;
-    padding:0 50px;
+    padding:5px 50px;
 }
 #link1{
     display:inline-block;
@@ -67,12 +67,17 @@
     text-decoration: none;
     color:#fff;
     font-weight:bold;
-    padding-left: 100px;
+    padding:0 20px;
     display:block;
+}
+#link1 a:hover{
+    background-color: #ffff00;
+    color:black;
+    transition: 0.6s;
 }
 #contact{
     display:inline-block;
-    padding:0 10px 10px 10px;
+    padding:5px 30px;
 }
 #contact h4{
     color:#fff;
