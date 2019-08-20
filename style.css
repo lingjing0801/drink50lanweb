@@ -48,3 +48,30 @@
     height:600px;
     padding:0 120px;
 }
+#footer{
+    width:70vw;
+    height:120px;
+    background-color:#0056b8;
+    margin:0 auto;
+}
+#logo1{
+    width:120px;
+}
+#link1{
+    display:inline-block;
+}
+#link1 a{
+    text-decoration: none;
+    color:#fff;
+    font-weight:bold;
+    padding:20px 0px;
+}
+#contact{
+    display:inline-block;
+    padding:0 10px 10px 10px;
+}
+#contact h4{
+    color:#fff;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
