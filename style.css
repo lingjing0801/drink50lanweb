@@ -6,23 +6,23 @@
 #banner{
     background-color: #ffff00;
     width:70vw;
-    height:calc(100vw/10);
+    height:120px;
     margin:0 auto;
 }
 #logo{
-    width:150px;
-    padding:0 22px;
+    width:120px;
+    padding:0 50px;
    
 }
 #link{
     float:right;
-    padding:55px 0;
+    padding:40px 0;
 }
 #link a{
     color:#0056b8;
     text-decoration: none;
     font-weight:bold;
-    padding:10px 40px;
+    padding:0 40px;
     font-size: 22px;
 }
 #link a:hover{
@@ -33,29 +33,32 @@
 /* 輪播banner */
 #img1{
     width:70vw;
-    height:39vw;
+    height:600px;
     margin:0 auto;
 }
 #ghost{
     height:600px;
-    padding:0 230px;
+    width:70vw;
 }
 #img2{
     margin:0 auto;
     width:70vw;
+    height:600px;
 }
 #menu{
     height:600px;
-    padding:0 120px;
+    width:70vw;
 }
+/* 頁尾 */
 #footer{
     width:70vw;
-    height:120px;
+    height:130px;
     background-color:#0056b8;
     margin:0 auto;
 }
 #logo1{
-    width:120px;
+    width:100px;
+    padding:0 50px;
 }
 #link1{
     display:inline-block;
@@ -64,7 +67,8 @@
     text-decoration: none;
     color:#fff;
     font-weight:bold;
-    padding:20px 0px;
+    padding-left: 100px;
+    display:block;
 }
 #contact{
     display:inline-block;
@@ -74,4 +78,8 @@
     color:#fff;
     line-height: 20px;
     letter-spacing: 5px;
+}
+#copy{
+    font-size:12px;
+    text-align: center;
 }
