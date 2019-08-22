@@ -88,3 +88,23 @@
     font-size:12px;
     text-align: center;
 }
+/* 關於我 */
+#about {
+    height:650px;
+    width:70vw;
+    margin:0 auto;
+    background-color: #fcfcd6 ;
+}
+#about h2,h3{
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 4px;
+    padding:20px 10px;
+    color:#0056b8;
+
+}
+#about p,li,ul{
+    line-height: 34px;
+    letter-spacing: 4px;
+    padding:10px 10px;
+}
