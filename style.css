@@ -114,6 +114,32 @@ footer{
 /*當螢幕大於等於 1024 像素 桌機 */
 @media screen and (min-width:1025px){
 }
+/*當螢幕小於等於 1514 像素 桌機縮小 */
+@media screen and (max-width:1514px){
+    #link a{
+        font-size: 20px;
+        padding:0 20px;
+    }
+    #about{
+        height: 800px;
+    }    
+}
+/*當螢幕小於等於 1188 像素 桌機縮小 */
+@media screen and (max-width:1188px){
+    #link a{
+        font-size: 18px;
+        padding:0 10px;
+    }
+    #logo1{
+        padding:5px 5px;
+    } 
+    #contact{
+        padding:5px 10px;
+    }
+    #about{
+        height: 900px;
+    }      
+}
 /*當螢幕小於等於 1024 像素 平板pro */
 @media screen and (max-width:1024px){
     #banner{
