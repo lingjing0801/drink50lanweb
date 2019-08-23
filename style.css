@@ -95,24 +95,27 @@ footer{
     margin:0 auto;
     background-color: #fcfcd6 ;
 }
-#about h2,h3{
+#about h2{
     text-align: center;
     line-height: 30px;
     letter-spacing: 4px;
     padding:35px 10px;
-    color:#0056b8;
-
+    font-size: 24px;
 }
 #about p,li,ul{
     line-height: 34px;
     letter-spacing: 4px;
     padding:5px 20px;
+    color: grey;
 }
 /* 最新消息 */
 h1{
     text-align: center;
     font-size: 24px;
-    padding-top:50px;
+    padding-top:30px;
+    width:70vw;
+    background-color: #fcfcd6;
+    margin:0 auto;
 }
 #new{
     /* 顯示模式：格線 */
@@ -121,21 +124,30 @@ h1{
     grid-template-columns: auto auto auto;
     /* 格線-間隙 */
     grid-gap: 20px;
-    padding:30px;
+    padding-top:30px;
     width:70vw;
     margin:0 auto;
+    background-color: #fcfcd6;
 }
-#new a{
+.new-box a{
     text-decoration: none;
 }
-#new img {
+.new-box img {
     width: 100%;
+    height:400px;
 }
-#new h2{
+.new-box h2{
     text-align: center;
     color: grey;
     letter-spacing: 3px;
     font-size: 20px;
+    margin:10px 0;
+}
+.new-box hr{
+    height:2px;
+    background-color: #0056b8;
+    border:0;
+    margin:10px 0;
 }
 
 /* RWD放最下面 */
