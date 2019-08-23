@@ -99,7 +99,7 @@ footer{
     text-align: center;
     line-height: 30px;
     letter-spacing: 4px;
-    padding:35px 10px;
+    padding:30px 10px;
     font-size: 24px;
 }
 #about p,li,ul{
@@ -116,6 +116,7 @@ h1{
     width:70vw;
     background-color: #fcfcd6;
     margin:0 auto;
+    letter-spacing: 4px;
 }
 #new{
     /* 顯示模式：格線 */
