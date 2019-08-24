@@ -9,4 +9,26 @@ html(lang="zh")
     body
         include nav.pug
         h1 聯絡我們
+        div(class="contact")
+            div(id="box")
+                img(src="imgs/new04.jpg", alt="聯絡我們")
+            div(id="content")
+                label(for="name") 姓名:
+                input(type="text" id="name" placeholder="請輸入您的姓名" required)
+                label(for="sex") 性別:
+                fieldset
+                    legend 
+                    label(for="man") 男
+                    input(type="radio" id="man" name="sex" value="man" required)
+                    label(for="woman") 女
+                    input(type="radio" id="woman" name="sex" value="woman" required)
+                label(for="email") 信箱:
+                input(type="email" id="email" placeholder="請輸入您的信箱" required)
+                label(for="phone") 電話:
+                input(type="phone" id="phone" placeholder="請輸入您的電話" required)
+                label(for="message") 留言:
+                textarea(name="message", cols="30", rows="10", id="message")
+                div(id="button")
+                    input(type="reset" value="重新輸入" class="btn")
+                    input(type="submit" value="確認送出" class="btn")
         include footer.pug

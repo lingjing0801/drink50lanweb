@@ -151,6 +151,70 @@ h1{
     margin:10px 0;
 }
 
+/* 聯絡我們 */
+.contact{
+    width:70vw;
+    background-color: #fcfcd6;
+    margin:0 auto;
+}
+#box{
+    width: 44%;
+    display: inline-block;
+    padding-top:50px;
+    padding-bottom: 50px;
+    border: 0.5px solid #FFB5A6;
+}
+#box img{
+    height: 650px;
+    padding-left:38px;
+}
+#content{
+    width: 44%;
+    display: inline-block; 
+    background-color:#fff;
+    margin-top: 50px;
+    margin-left:20px;
+    padding: 30px 30px;
+    vertical-align: top;
+    border: 0.5px solid #FFB5A6;
+}
+label{
+    letter-spacing: 3px;
+}
+#name,#email,#phone,#message{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    background-color:rgb(253, 238, 170);
+    color:black;
+}
+fieldset {
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    background-color:rgb(253, 238, 170);
+    margin: 10px -10px 10px 0;
+}
+#man,#woman{
+    margin:10px 10px;
+}
+.btn {
+    width: 40%;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+    font-weight: 50px;
+    margin: 10px;
+    background-color:rgb(253, 238, 170);
+}
+  
+  #button {
+    text-align: center;
+    margin-top: 10px;
+    
+}
+/* 預留文字 */
+::placeholder {
+    color:grey;
+  }
 /* RWD放最下面 */
 /*當螢幕大於等於 1024 像素 桌機 */
 @media screen and (min-width:1025px){
