@@ -58,7 +58,7 @@ footer{
 }
 #logo1{
     width:100px;
-    padding:5px 50px;
+    padding:5px 60px;
 }
 #link1{
     display:inline-block;
@@ -67,6 +67,7 @@ footer{
     text-decoration: none;
     color:#fff;
     font-weight:bold;
+    margin:0 0 0 120px;
     padding:2px 20px;
     display:block;
 }
@@ -77,7 +78,7 @@ footer{
 }
 #contact{
     display:inline-block;
-    padding:5px 30px;
+    padding:5px 80px;
 }
 #contact h4{
     color:#fff;
