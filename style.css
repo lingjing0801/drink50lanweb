@@ -159,32 +159,33 @@ h1{
     margin:0 auto;
 }
 #box{
-    width: 44%;
+    width: 50%;
     display: inline-block;
     padding-top:50px;
     padding-bottom: 50px;
-    /* border: 0.5px solid ; */
-}
+    border: 0.5px solid ; 
+} 
 #box img{
-    height: 650px;
-    padding-left:43px;
+    border: 0.5px solid ; 
+    height: 620px;
+    margin-left:105px;
 }
 #content{
-    width: 44%;
+    width: 420px;
+    height: 560px;
     display: inline-block; 
     background-color:#fff;
-    margin-top: 50px;
-    margin-left:25px;
-    padding: 30px 30px;
+    margin-top: 50px;    
+    padding: 30px 20px;
     vertical-align: top;
-    /* border: 0.5px solid #FFB5A6; */
+    border: 0.5px solid #FFB5A6; 
 }
 label{
     letter-spacing: 3px;
 }
 #name,#email,#phone,#message{
     width: 100%;
-    padding: 5px;
+    padding: 5px 0;
     margin: 10px 0;
     background-color:rgb(253, 238, 170);
     color:black;
@@ -192,7 +193,7 @@ label{
 fieldset {
     border: 0.5px solid rgba(0, 0, 0, 0.1);
     background-color:rgb(253, 238, 170);
-    margin: 10px -10px 10px 0;
+    margin: 10px 0 10px 0;
 }
 #man,#woman{
     margin:10px 10px;
@@ -203,13 +204,13 @@ fieldset {
     color: black;
     font-size: 16px;
     font-weight: 50px;
-    margin: 10px;
+    margin: 5px;
     background-color:rgb(253, 238, 170);
 }
   
-  #button {
+#button {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     
 }
 /* 預留文字 */
