@@ -34,10 +34,14 @@
 #img1{
     width:70vw;
     margin:0 auto;
+    height: 90vh;
 }
 #ghost{
     width:70vw;
     height: auto;
+    height: 90vh;
+    object-fit: cover;
+    object-position: 0 -115px ;
 }
 /* #img2{
     margin:0 auto;
