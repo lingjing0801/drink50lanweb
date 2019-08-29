@@ -134,8 +134,8 @@ h1{
     grid-template-columns: auto auto auto;
     /* 格線-間隙 */
     grid-gap: 20px;
-    padding-top:30px;
-    width:100vw;
+    padding:30px 90px;
+    width:90vw;
     margin:0 auto;
     background-color: #fcfcd6;
 }
