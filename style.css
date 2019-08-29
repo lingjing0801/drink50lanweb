@@ -5,7 +5,7 @@
 }
 #banner{
     background-color: #ffff00;
-    width:70vw;
+    width:100vw;
     height:120px;
     margin:0 auto;
 }
@@ -32,16 +32,16 @@
 }
 /* 輪播banner */
 #img1{
-    width:70vw;
+    width:100vw;
     margin:0 auto;
     height: 90vh;
 }
 #ghost{
-    width:70vw;
+    width:100vw;
     height: auto;
     height: 90vh;
     object-fit: cover;
-    object-position: 0 -115px ;
+    object-position: 0 -160px ;
 }
 /* #img2{
     margin:0 auto;
@@ -54,7 +54,7 @@
 }
 /* 頁尾 */
 footer{
-    width:70vw;
+    width:100vw;
     height:150px;
     background-color:#0056b8;
     margin:0 auto;
@@ -70,7 +70,7 @@ footer{
     text-decoration: none;
     color:#fff;
     font-weight:bold;
-    margin-left: 130px;
+    margin-left: 120px;
     padding:2px 20px;
     display:block;
 }
@@ -81,7 +81,7 @@ footer{
 }
 #contact{
     display:inline-block;
-    padding:5px 250px;
+    padding:5px 540px;
 }
 #contact h4{
     color:#fff;
@@ -98,7 +98,7 @@ footer{
 /* 關於我們 */
 #about {
     height:700px;
-    width:70vw;
+    width:100vw;
     margin:0 auto;
     background-color: #fcfcd6 ;
 }
@@ -106,13 +106,15 @@ footer{
     text-align: center;
     line-height: 30px;
     letter-spacing: 4px;
-    padding:30px 10px;
+    padding:30px 30px;
     font-size: 24px;
 }
 #about p,li,ul{
     line-height: 34px;
     letter-spacing: 4px;
     padding:5px 20px;
+    width:70vw;
+    margin:0 auto;
     color: grey;
 }
 /* 最新消息 */
@@ -120,7 +122,7 @@ h1{
     text-align: center;
     font-size: 24px;
     padding-top:30px;
-    width:70vw;
+    width:100vw;
     background-color: #fcfcd6;
     margin:0 auto;
     letter-spacing: 4px;
@@ -133,7 +135,7 @@ h1{
     /* 格線-間隙 */
     grid-gap: 20px;
     padding-top:30px;
-    width:70vw;
+    width:100vw;
     margin:0 auto;
     background-color: #fcfcd6;
 }
@@ -142,7 +144,7 @@ h1{
 }
 .new-box img {
     width: 100%;
-    height:400px;
+    height:500px;
 }
 .new-box h2{
     text-align: center;
@@ -160,17 +162,19 @@ h1{
 /* 飲品介紹 */
 #drink{
     margin:0 auto;
-    width:70vw;
-    height:600px;
+    width:100vw;
+    height:80vh;
 }
 #drink img{
     width: 100%;
-    height: 600px;
+    height: 80vh;
     margin:0 auto;
+    /* object-fit: cover;
+    object-position: 0 -40px ; */
 }
 /* 聯絡我們 */
 .contact{
-    width:70vw;
+    width:100vw;
     background-color: #fcfcd6;
     margin:0 auto;
 }
