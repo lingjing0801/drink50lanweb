@@ -48,10 +48,10 @@
     width:70vw;
     height:600px;
 } */
-#menu{
+/* #menu{
     height:600px;
     width:70vw;
-}
+} */
 /* 頁尾 */
 footer{
     width:100vw;
@@ -290,7 +290,7 @@ fieldset {
     }
     #ghost{
         height: 80vh;
-        object-position: -50px ;
+        object-position: 0 ;
     }      
     #link{
         padding:35px 0;
@@ -383,7 +383,12 @@ fieldset {
         margin: 0;
     }
 }
-/*當螢幕小於等於 767 像素 手機 */
-@media screen and (max-width:767px){
+/*當螢幕小於等於 768 像素 手機 */
+@media screen and (max-width:768px){
+    #ghost{
+        height: 75vh;
+        object-position: 0 -60px;
+    }
+    
   
 }
