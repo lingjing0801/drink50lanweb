@@ -67,12 +67,13 @@ footer nav{
 }
 #logo1{
     width:100px;
-    padding:20px 60px;
+    padding:22px 60px;
 }
 #link1 a{
     text-decoration: none;
     color:#fff;
     font-weight:bold;
+    margin-top:2px;
     margin-left: 80px;
     padding:3px 5px;
     display:block;
@@ -96,6 +97,7 @@ footer nav{
     font-size:10px;
     text-align: center;
     color:white;
+    margin-top:2px;
     letter-spacing: 2px;
 }
 
@@ -135,11 +137,11 @@ h1{
     /* 顯示模式：格線 */
     display: grid;
     /* 格線-框架-欄位：欄位尺寸 欄位尺寸 欄位尺寸 */
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     /* 格線-間隙 */
     grid-gap: 20px;
-    padding:30px 90px;
-    width:90vw;
+    padding:30px 0;
+    width:100%;
     margin:0 auto;
     background-color: #fcfcd6;
 }
@@ -149,8 +151,9 @@ h1{
 .new-box img {
     width: 100%;
     height:500px;
+    
 }
-.new-box h2{
+.new-box h2{   
     text-align: center;
     color: grey;
     letter-spacing: 3px;
@@ -184,8 +187,7 @@ h1{
     display:grid;
     grid-template-columns:auto auto;
 }
-#box{
-    
+#box{   
     padding-top:50px;
     padding-bottom: 50px;
     /* border: 0.5px solid ;  */
@@ -197,8 +199,7 @@ h1{
 }
 #content{
     width: 420px;
-    height: 560px;
-    
+    height: 560px;   
     background-color:#fff;
     margin-top: 50px;    
     padding: 30px 20px;
@@ -300,6 +301,15 @@ fieldset {
     #link1 a{
         margin-left:20px; 
     }
+    #new{
+        grid-template-columns: auto auto auto;
+    }
+    .new-box img{
+        height: 400px;
+    }
+    .new-box h2{
+        font-size: 16px;
+    }
 }
 /*當螢幕小於等於 1023 像素 平板 */
 @media screen and (max-width:1023px){
@@ -340,8 +350,34 @@ fieldset {
         width:340px;
         height: 540px;
     }
+    .new-box img{
+        height: 300px;
+    }
+    .new-box h2{
+        font-size: 12px;
+    }
+    #box img{
+        height: 500px;
+    }
+    #content{
+        width: 300px;
+        height: 480px;
+        padding: 10px 20px;
+    }
+    label{
+        font-size: 10px;
+    }
 
-
+    #name,#email,#phone,#message{
+        font-size: 10px;
+        margin:8px 0;
+    }
+    #man,#woman{
+        margin:8px 10px;
+    }
+    #button{
+        margin: 0;
+    }
 }
 /*當螢幕小於等於 767 像素 手機 */
 @media screen and (max-width:767px){
