@@ -3,6 +3,9 @@
     padding:0;
     font-family: 微軟正黑體;
 }
+body{
+    background-color: #fcfcd6;
+}
 #banner{
     background-color: #ffff00;
     width:100vw;
@@ -137,11 +140,11 @@ h1{
     /* 顯示模式：格線 */
     display: grid;
     /* 格線-框架-欄位：欄位尺寸 欄位尺寸 欄位尺寸 */
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto ;
     /* 格線-間隙 */
-    grid-gap: 20px;
+    grid-gap: 50px;
     padding:30px 0;
-    width:100%;
+    width:80vw;
     margin:0 auto;
     background-color: #fcfcd6;
 }
@@ -302,13 +305,13 @@ fieldset {
         margin-left:20px; 
     }
     #new{
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
     }
     .new-box img{
         height: 400px;
     }
     .new-box h2{
-        font-size: 16px;
+        font-size: 18px;
     }
 }
 /*當螢幕小於等於 1023 像素 平板 */
@@ -354,7 +357,7 @@ fieldset {
         height: 300px;
     }
     .new-box h2{
-        font-size: 12px;
+        font-size: 14px;
     }
     #box img{
         height: 500px;
