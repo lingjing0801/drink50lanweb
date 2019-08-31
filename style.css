@@ -38,7 +38,6 @@
 }
 #ghost{
     width:100vw;
-    height: auto;
     height: 90vh;
     object-fit: cover;
     object-position: 0 -160px ;
@@ -286,10 +285,10 @@ fieldset {
         width:100px;
     }
     #img1{
-        height: 80vh;
+        height: 75vh;
     }
     #ghost{
-        height: 80vh;
+        height: 75vh;
         object-position: 0 ;
     }      
     #link{
@@ -331,7 +330,8 @@ fieldset {
     #ghost{
         height: 75vh;
         object-position: 0;
-    }
+    }      
+
     #logo1{
         padding:20px 20px;
     }
@@ -384,11 +384,8 @@ fieldset {
     }
 }
 /*當螢幕小於等於 768 像素 手機 */
-@media screen and (max-width:768px){
-    #ghost{
-        height: 75vh;
-        object-position: 0 -60px;
-    }
+@media screen and (max-width:760px){
+
     
   
 }
