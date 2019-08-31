@@ -73,7 +73,7 @@ footer nav{
     text-decoration: none;
     color:#fff;
     font-weight:bold;
-    margin-left: 100px;
+    margin-left: 80px;
     padding:3px 5px;
     display:block;
 }
@@ -246,143 +246,83 @@ fieldset {
 /*當螢幕大於等於 1024 像素 桌機 */
 @media screen and (min-width:1025px){
 }
-/*當螢幕小於等於 1528 像素 桌機縮小 */
-@media screen and (max-width:1528px){
-    #link a{
-        font-size: 20px;
-        padding:0 20px;
-    }
-    #about{
-        height: 800px;
-    }
+/*當螢幕小於等於 1542 像素 桌機縮小 */
+@media screen and (max-width:1542px){
     #link1 a{
         margin-left:0;
-    }
-       
+    }       
 }
 /*當螢幕小於等於 1528 像素 桌機縮小 */
 @media screen and (max-width:1355px){
-    #link a{
-        font-size: 20px;
-        padding:0 20px;
-    }
     #about{
-        height: 800px;
+        height: 700px;
     }
-    #link1 a{
-        margin-left:0;
-    }
-    #contact{
-        padding:5px 20px;
-    }
-       
+}
+/*當螢幕小於等於 1188 像素 桌機縮小 */
+@media screen and (max-width:1300px){
+    #ghost{
+        object-position: 0;
+    }      
 }
 /*當螢幕小於等於 1188 像素 桌機縮小 */
 @media screen and (max-width:1188px){
+    #about{
+        height: 850px;
+    } 
     #link a{
         font-size: 18px;
-        padding:0 10px;
-    }
-    #logo1{
-        padding:5px 5px;
-    } 
-    #contact{
-        padding:5px 20px;
-    }
-    #about{
-        height: 900px;
-    }      
+    }   
 }
 /*當螢幕小於等於 1024 像素 平板pro */
 @media screen and (max-width:1024px){
     #banner{
-        width: 100%;
         height: 100px;
     }
     #logo{
         width:100px;
     }
+    #img1{
+        height: 80vh;
+    }
+    #ghost{
+        height: 80vh;
+        object-position: -50px ;
+    }      
     #link{
         padding:35px 0;
     }
     #link a{
         font-size: 18px;
     }
-    #img1{
-        width: 100%;
-    }
-    #ghost{
-        width: 100%;
-    }
-    #img2{
-        width: 100%;
-    }
-    #menu{
-        width: 100%;
-    }
-    footer{
-        width: 100%;
-    }
     #logo1{
-        padding:5px 60px;
-    }
-    #contact{
-        padding:5px 60px;
+        padding:20px 50px;
     }
     #link1 a{
-        margin-left:110px; 
+        margin-left:20px; 
     }
-    #about{
-        width: 100%;
-    }
-    h1{
-        width: 100%;
-    }
-    #new{
-        width: 100%;
-    }
-    .contact{
-        width: 100%;
-    }
-
 }
 /*當螢幕小於等於 1023 像素 平板 */
 @media screen and (max-width:1023px){
     #banner{
-        width: 100%;
         height: 100px;
     }
     #logo{
-        width:100px;
-        
+        width:100px;    
     }
     #link a{
-        font-size: 18px;
         padding: 0 20px;
     }
-    #img1{
-        height: 400px;
-    }
     #ghost{
-        height: 400px;
-    }
-    #img2{
-        height: 400px;
-    }
-    #menu{
-        height: 400px;
-    }
-    footer{
-        width: 100%;
+        object-position: -20px ;
     }
     #logo1{
-        padding:5px 20px;
+        padding:20px 20px;
     }
     #contact{
         padding:5px 10px;
     }
     #link1 a{
-        margin-left:30px;
+        margin-left:0;
     }
     #about{
         height: 850px;
