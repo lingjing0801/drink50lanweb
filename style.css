@@ -342,16 +342,10 @@ fieldset {
         margin-left:0;
     }
     #about{
-        height: 1000px;
+        height: 900px;
     }
-    #box img{
-        margin-left:0;
-        width:390px;
-        height: 600px;
-    }
-    #content{
-        width:340px;
-        height: 540px;
+    #about p,li,ul{
+        line-height: 30px;
     }
     .new-box img{
         height: 300px;
@@ -383,9 +377,125 @@ fieldset {
         margin: 0;
     }
 }
-/*當螢幕小於等於 768 像素 手機 */
+/*當螢幕小於等於 760 像素 桌機縮小 */
 @media screen and (max-width:760px){
-
-    
-  
+    #link{
+        display:none;
+    } 
+    #logo{
+        width: 80px;
+    }
+    #banner{
+        height: 80px;
+    }
+    footer{
+        height: 100px;
+    }
+    #logo1{
+        width: 80px;
+        padding: 10px 10px;
+    }
+    #link1{
+        display:none;
+    }
+    #contact h4{
+        font-size: 6px;
+        padding:0;
+        line-height: 12px;
+    }
+    #about p,li,ul{
+        width: 80vw;
+        letter-spacing: 2px;
+    }
+}
+/*當螢幕小於等於 690 像素 桌機縮小 */
+@media screen and (max-width:690px){   
+    #box img{
+        width: 280px;
+        height: 500px;
+    }
+    #content{
+        width: 250px;
+        height: 480px;
+        padding: 10px 15px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+}
+/*當螢幕小於等於 560 像素 桌機縮小 */
+@media screen and (max-width:560px){   
+    #about {
+        height: 1000px;
+    }
+    #about p,li,ul{
+        width: 90vw; 
+    }
+    #logo1{
+        width: 50px;
+        padding: 25px 20px;
+    }
+    #contact{
+        padding: 5px 0;
+    }
+    #contact h4{
+        font-size: 4px;
+        letter-spacing: 2px;
+    }
+    #box{
+        display:none;
+    }
+    .contact{
+        display:inline-block;    
+    }
+    #content{
+        margin:50px auto;
+    }
+}
+/*當螢幕小於等於 450 像素 桌機縮小 */
+@media screen and (max-width:460px){   
+    #logo{
+        padding:0 10px;
+    }
+    #ghost{
+        object-position: -40px 0;
+    }
+    #about{
+        height: 800px;
+    }
+    #about h2{
+        font-size: 20px;
+    }
+    #about p,li,ul{
+        font-size: 12px;
+        padding: 5px 10px;
+        line-height: 24px;
+    }
+    #logo1{
+        display:none;
+    }
+    #contact p{
+        letter-spacing: 0;
+    }
+    #h1{
+        font-size: 20px;
+    }
+    #new{
+        grid-template-columns:auto;
+        grid-gap: 20px;
+    }
+    .new-box img{
+        width: 90%;
+        margin:0 14px;
+    }
+    .new-box hr{
+        width: 90%;
+        margin:10px 15px;
+    }
+    #drink{
+        height: 70vh;
+    }
+    #drink img{
+        height: 70vh;
+    }
 }
