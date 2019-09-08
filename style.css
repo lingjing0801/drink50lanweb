@@ -168,16 +168,18 @@ h1{
     padding:30px 0;
     
 }
-.title{
+/* .title{
     width:90vw;
     display:grid;
     grid-template-columns: auto auto auto auto;
     grid-gap:60px;
     margin:0 auto;
-}
+} */
 .icon{
     display: inline-block;
-    padding:0 20px; 
+    width: 280px;
+    padding:0 30px; 
+    /* border:0.5px solid red; */
 }
 .icon img{
     width:60px;
@@ -191,9 +193,9 @@ h1{
     
 }
 .icon p{
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    padding:10px 20px;
+    padding:10px 80px;
     
 }
 .more{
