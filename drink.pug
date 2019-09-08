@@ -1,3 +1,9 @@
+mixin drink1(img,textZH,textEN)
+    div(class="icon")
+        img(src="imgs/" + img + ".png", alt="連結縮圖")
+        span=textZH
+        br
+        p=textEN
 <!DOCTYPE html>
 html(lang="zh")
     head
@@ -10,5 +16,10 @@ html(lang="zh")
         include nav.pug
         h1 飲品介紹
         div(id="drink")
-            img(src="imgs/menu.jpg", alt="飲料單")
+            div(class="title")
+                +drink1("icon1", "找好茶" , "Flavored Tea")
+                +drink1("icon1", "找拿鐵" , "Tea Latte")
+                +drink1("icon1", "找奶茶" , "Milk Tea")
+                +drink1("icon1", "找新鮮" , "Fresh Juice")
+            div(class="drinkcontent")
         include footer.pug
