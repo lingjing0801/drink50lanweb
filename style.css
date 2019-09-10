@@ -578,7 +578,13 @@ fieldset {
     }
     .more{
         grid-template-columns: 60% 20% 20%;
-        margin:10px 20px;
+        margin:10px 30px;
+    }
+    .icon{
+        margin:10px 30px;
+    }
+    .tea,.latte,.milk,.juice{
+        padding:0 60px;
     }
     
 }
