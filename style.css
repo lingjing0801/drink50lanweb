@@ -179,7 +179,7 @@ h1{
     display: inline-block;
     width: 280px;
     padding:0 30px; 
-    /* border:0.5px solid red; */
+    border:0.5px solid red; 
 }
 .icon img{
     width:60px;
@@ -201,7 +201,7 @@ h1{
 .more{
     display:grid;
     grid-template-columns: 60% 20% 20%;
-    width:20vw;
+    
     margin: 20px 20px;
     /* border:0.5px solid red; */
 }
@@ -294,13 +294,25 @@ fieldset {
         margin-left:0;
     }       
 }
-/*當螢幕小於等於 1528 像素 桌機縮小 */
+/*當螢幕小於等於 1440 像素 桌機縮小 */
+@media screen and (max-width:1440px){
+    .all{
+        grid-gap:0;
+    }
+}
+/*當螢幕小於等於 1355 像素 桌機縮小 */
 @media screen and (max-width:1355px){
     #about{
         height: 700px;
     }
+    .tea{
+        padding:0 10px;
+    }
+    .icon{
+        padding:0 10px;
+    }
 }
-/*當螢幕小於等於 1188 像素 桌機縮小 */
+/*當螢幕小於等於 1300 像素 桌機縮小 */
 @media screen and (max-width:1300px){
     #ghost{
         object-position: 0;
@@ -313,7 +325,36 @@ fieldset {
     } 
     .link a{
         font-size: 18px;
+    }
+    .tea{
+        padding:0 ;
+    }
+    .icon{
+       
+        padding:0 5px;
+    } 
+    .more{
+        grid-template-columns: 70% 15% 15%;
     }   
+}
+/*當螢幕小於等於 1144 像素 桌機縮小 */
+@media screen and (max-width:1144px){
+    .icon{
+        width: 220px;
+        padding: 0 10px;
+    }
+    .icon img{
+        width: 50px;
+    }
+    .icon span{
+        padding:0 10px;
+        font-size: 18px;
+    }
+    .icon p{
+        padding:0 60px;
+        font-size: 14px;
+    }
+  
 }
 /*當螢幕小於等於 1024 像素 平板pro */
 @media screen and (max-width:1024px){
@@ -350,6 +391,9 @@ fieldset {
     }
     .new-box h2{
         font-size: 18px;
+    }
+    .more{
+        grid-template-columns: 75% 12.5% 12.5%;
     }
 }
 /*當螢幕小於等於 1023 像素 平板 */
@@ -415,6 +459,23 @@ fieldset {
     #button{
         margin: 0;
     }
+    .all{
+        grid-template-columns: auto auto;
+        grid-gap:30px;
+    }
+    .icon{
+        width: 210px;
+        margin:10px 55px;
+    }
+    .tea{
+        padding:0 20px;
+    }
+    .latte{
+        padding:0 20px;
+    }
+    .more{
+        grid-template-columns: 60% 20% 20%;
+    }
 }
 /*當螢幕小於等於 760 像素 桌機縮小 */
 @media screen and (max-width:760px){
@@ -446,8 +507,14 @@ fieldset {
         width: 80vw;
         letter-spacing: 2px;
     }
+    .all{
+        grid-gap:0;
+    }
+    .icon{
+        margin:10px 0;
+    }
 }
-/*當螢幕小於等於 690 像素 桌機縮小 */
+/*當螢幕小於等於 700 像素 桌機縮小 */
 @media screen and (max-width:700px){   
     #box{
         display:none;
@@ -462,6 +529,15 @@ fieldset {
     }
     .btn{
         font-size: 10px;
+    }
+    .more{
+        margin:10px 10px;
+    }
+}
+/*當螢幕小於等於 600 像素 桌機縮小 */
+@media screen and (max-width:600px){   
+    .more{
+        grid-template-columns: 75% 12.5% 12.5%;
     }
 }
 
@@ -485,6 +561,26 @@ fieldset {
         font-weight: 200;
         letter-spacing: 2px;
     }
+    .more{
+        margin:10px 0;
+    }
+    .tea{
+        padding: 0 5px;
+    }
+    .latte{
+        padding: 0 5px;
+    }
+}
+/*當螢幕小於等於 460 像素 桌機縮小 */
+@media screen and (max-width:480px){   
+    .all{
+        grid-template-columns: auto;
+    }
+    .more{
+        grid-template-columns: 60% 20% 20%;
+        margin:10px 20px;
+    }
+    
 }
 /*當螢幕小於等於 460 像素 桌機縮小 */
 @media screen and (max-width:460px){   
@@ -526,12 +622,6 @@ fieldset {
     .new-box hr{
         width: 90%;
         margin:10px 15px;
-    }
-    #drink{
-        height: 70vh;
-    }
-    #drink img{
-        height: 70vh;
     }
 }
 /*當螢幕小於等於 330 像素 桌機縮小 */
