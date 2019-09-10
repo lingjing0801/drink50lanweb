@@ -179,7 +179,7 @@ h1{
     display: inline-block;
     width: 280px;
     padding:0 30px; 
-    border:0.5px solid red; 
+    /* border:0.5px solid red;  */
 }
 .icon img{
     width:60px;
