@@ -578,13 +578,15 @@ fieldset {
     }
     .more{
         grid-template-columns: 60% 20% 20%;
+        width: 60vw;
         margin:10px 30px;
     }
     .icon{
         margin:10px 30px;
     }
     .tea,.latte,.milk,.juice{
-        padding:0 60px;
+        padding:0 ;
+        margin:0 auto;
     }
     
 }
@@ -629,6 +631,25 @@ fieldset {
         width: 90%;
         margin:10px 15px;
     }
+    .more{
+        grid-template-columns: 70% 15% 15%;
+    }
+}
+/*當螢幕小於等於 380 像素 桌機縮小 */
+@media screen and (max-width:380px){   
+    .icon img{
+        width: 40px;
+    }
+    .icon p{
+        padding:0 50px;
+    }
+    .icon{
+        width: 190px;
+        margin:10px 50px;
+    }
+    .more{
+        width: 70vw;
+    }
 }
 /*當螢幕小於等於 330 像素 桌機縮小 */
 @media screen and (max-width:330px){   
@@ -642,5 +663,18 @@ fieldset {
     }
     #content{
         width: 250px;       
+    }
+    .more{
+        width: 80vw;
+    }
+}
+/*當螢幕小於等於 330 像素 桌機縮小 */
+@media screen and (max-width:300px){   
+    .more{
+        width: 90vw;
+        margin:10px auto;
+    }
+    .icon{
+        margin: 10px auto;
     }
 }
